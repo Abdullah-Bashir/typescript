@@ -14,4 +14,12 @@ console.log(isVALID);
 
 // Using bigint for displaying large numbers.
 let Bnumber: bigint = 5999995666666666666669999999n;
-console.log(Bnumber) 
+let sum = Bnumber + 98n;
+console.log(Bnumber)
+console.log("Sum:", sum)
+
+const greet = (name: string) => {
+    return console.log(`The name is ${name}`)
+}
+
+greet("abdullah")
