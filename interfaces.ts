@@ -1,5 +1,5 @@
 // app.ts
-let mes = "Hello, TypeScript!";
+let mes = "Hello, this is TypeScript!";
 console.log(mes);
 
 let num: number = 5;  // First declaration of `num`
